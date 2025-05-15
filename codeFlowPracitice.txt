@@ -2,10 +2,10 @@
 let x = 3;
 let y = 5;
 
-x = y + 1; // line 3
-y = x - 1; // line 4
-x = y * 2; // line 5
-y = x / 2; // line 6
+x = y + 1; // x = 6
+y = x - 1; // y = 5
+x = y * 2; // x = 10
+y = x / 2; // y = 5
 
 // Predict the final values of x and y.
 
@@ -13,10 +13,10 @@ y = x / 2; // line 6
 let a = 5;
 let b = 7;
 
-a = b + 2; // line 3
-b = 10;    // line 4
-a = a * b; // line 5
-b = b + a; // line 6
+a = b + 2; // a = 9
+b = 10;    // b = 10
+a = a * b; // a = 9 * 10 = 90
+b = b + a; // b = 10 + 90 = 100
 
 // Predict the value of a...
 // ... after line 3 executes?
@@ -25,11 +25,11 @@ b = b + a; // line 6
 // ... after line 6 executes?
 
 // Additional section 2
-let wish = "Good";                  		//line 1
-const farewell = wish + 'bye';			//line 2
-wish = "Hey";					//line 3
-let yellFarewell = farewell + '!';		//line 4
-let surprisedFarewell = "Wow! " + farewell; 	//line 5
+let wish = "Good";                  		//line 1 "Good"
+const farewell = wish + 'bye';			//line 2 "Goodbye"
+wish = "Hey";					//line 3 "Hey"
+let yellFarewell = farewell + '!';		//line 4 "Goodbye!"
+let surprisedFarewell = "Wow! " + farewell; 	//line 5 "Wow! Goodbye"
 
 // What is the value of wish after line 1 executes?
 // What is the value of farewell after line 2 executes?
